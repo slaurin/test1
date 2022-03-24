@@ -9,5 +9,7 @@ int main(int argc, char const *argv[])
         return 1;
     }
 
+    std::cout << "Hello, " << argv[1] << std::endl;
+
     return 0;
 }
